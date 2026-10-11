@@ -222,6 +222,12 @@ window.DATA = {
    "galleryGroups": {
     "official": [],
     "real": []
+   },
+   "filterAttrs": {
+    "color": "mono",
+    "paper": "A4",
+    "pages": "lt1500",
+    "people": "le10"
    }
   },
   {
@@ -396,6 +402,12 @@ window.DATA = {
    "galleryGroups": {
     "official": [],
     "real": []
+   },
+   "filterAttrs": {
+    "color": "color",
+    "paper": "A3",
+    "pages": "4000+",
+    "people": "10-30"
    }
   },
   {
@@ -569,6 +581,12 @@ window.DATA = {
    "galleryGroups": {
     "official": [],
     "real": []
+   },
+   "filterAttrs": {
+    "color": "color",
+    "paper": "A3",
+    "pages": "4000+",
+    "people": "30+"
    }
   },
   {
@@ -715,6 +733,11 @@ window.DATA = {
    "galleryGroups": {
     "official": [],
     "real": []
+   },
+   "filterAttrs": {
+    "color": "mono",
+    "paper": "A4",
+    "people": "le10"
    }
   },
   {
@@ -871,6 +894,11 @@ window.DATA = {
    "galleryGroups": {
     "official": [],
     "real": []
+   },
+   "filterAttrs": {
+    "color": "color",
+    "paper": "A3",
+    "people": "30+"
    }
   },
   {
@@ -1004,6 +1032,10 @@ window.DATA = {
    "galleryGroups": {
     "official": [],
     "real": []
+   },
+   "filterAttrs": {
+    "color": "mono",
+    "paper": "A4"
    }
   },
   {
@@ -1144,6 +1176,10 @@ window.DATA = {
    "galleryGroups": {
     "official": [],
     "real": []
+   },
+   "filterAttrs": {
+    "color": "color",
+    "paper": "A3"
    }
   },
   {
@@ -1305,7 +1341,13 @@ window.DATA = {
     "official": [],
     "real": []
    },
-   "hot": false
+   "hot": false,
+   "filterAttrs": {
+    "color": "mono",
+    "paper": "A4",
+    "pages": "lt1500",
+    "people": "le10"
+   }
   },
   {
    "id": "l5",
@@ -1479,6 +1521,12 @@ window.DATA = {
    "galleryGroups": {
     "official": [],
     "real": []
+   },
+   "filterAttrs": {
+    "color": "color",
+    "paper": "A4",
+    "pages": "4000+",
+    "people": "10-30"
    }
   },
   {
@@ -1653,7 +1701,13 @@ window.DATA = {
     "official": [],
     "real": []
    },
-   "hot": false
+   "hot": false,
+   "filterAttrs": {
+    "color": "color",
+    "paper": "A3",
+    "pages": "4000+",
+    "people": "30+"
+   }
   }
  ],
  "faqs": [
