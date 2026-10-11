@@ -258,6 +258,9 @@
     return c.options || [];
   }
   function fTest(p, k, v) {
+    var fa = p.filterAttrs || {}; // F9：后台必选的筛选属性优先；老数据没有时按设备/推荐印量/人数推算
+    if ((k === 'color' || k === 'paper') && fa[k]) return fa[k] === v; // 待复核的占位值服务器不下发（M7），这里拿不到就按设备推算
+    if ((k === 'pages' || k === 'people') && fa[k] === v) return true;
     switch (k) {
       case 'usage': return v.some(function (x) { return (p.usageTagIds || []).indexOf(x) >= 0; });
       case 'brand': return v.some(function (x) { return pBrands(p).indexOf(x) >= 0; });
